@@ -42,7 +42,44 @@
           <soundList/>
           <scriptList>
             <script type="StartScript" posX="0.0" posY="0.0">
-              <brickList/>
+              <brickList>
+                <brick type="CreateWebFileBrick">
+                  <brickId>3e1eb878-61fe-463a-ae8a-ac05dd42e552</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="HEIGHT">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>700</value>
+                    </formula>
+                    <formula category="POSX">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>0</value>
+                    </formula>
+                    <formula category="NAME">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>text</value>
+                    </formula>
+                    <formula category="WIDTH">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>500</value>
+                    </formula>
+                    <formula category="POSY">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>0</value>
+                    </formula>
+                    <formula category="HTML">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>text.html</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+              </brickList>
               <commentedOut>false</commentedOut>
               <scriptId>303caf42-cf7d-458b-84bd-4d09075cbf2c</scriptId>
             </script>
